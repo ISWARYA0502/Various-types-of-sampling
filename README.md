@@ -14,7 +14,7 @@
  
  PROCEDURE:
  
- 1.Natural Sampling
+ Natural Sampling
  
  1. Switch on the DCL-10 kit with correct power supply polarity.
  2. Connect 1kHz, 5Vpp sine wave output to BUF IN of buffer.
@@ -26,10 +26,11 @@
  Pass Filter.
  8. Observe output and repeat steps for 2kHz sine wave input.
     
- 2. Sample and Hold
+  Sample and Hold
+      
  1. Switch on the DCL-01 kit with correct power supply polarity.
  2. Connect 1kHz, 5Vpp sine wave output to BUF IN of buffer.
-3. Connect BUF OUT to IN of Sample and Hold block.
+ 3. Connect BUF OUT to IN of Sample and Hold block.
  4. Set clock to Internal mode (INT clk) using switch Sw4.
  5. Set sampling frequency to 8kHz using switch S1.
  6. Set 50% duty cycle using switch Sw2.
@@ -37,7 +38,8 @@
  Pass Filter.
  8. Observe output and repeat steps for 2kHz sine wave input.
     
- 3. Flat Top Sampling
+  Flat Top Sampling
+  
  1. Switch on the DCL-01 kit with correct power supply polarity.
  2. Connect 1kHz, 5Vpp sine wave output to BUF IN of buffer.
  3. Connect BUF OUT to IN of Flat Top Sampling block.
